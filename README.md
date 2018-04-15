@@ -1,5 +1,5 @@
 # SAMSA
-SAMSA Evaluation Metric and Human Evaluation Benchmark
+SAMSA Evaluation Metric and Human Evaluation Benchmark for Text Simplification
 
 If you use the metric or the benchmark, please cite the following paper:
 
