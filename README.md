@@ -16,12 +16,13 @@ The source sentences and the system outputs can be found at http://homepages.inf
 
 ## Code
 ### Requirements:
-Python NLTK, [UCCA toolkit]('https://github.com/danielhers/ucca'), [TUPA parser]('https://github.com/danielhers/tupa') for 
-parsing the source side.
+Python NLTK, [UCCA toolkit](https://github.com/danielhers/ucca), [Monolingual word aligner](https://github.com/ma-sultan/monolingual-word-aligner)
+
+[TUPA parser](https://github.com/danielhers/tupa) for parsing the source side.
 
 **./scene_sentence_extraction.py**
 
-**./scene_sentence_alignment.py** Makes use of a [monolingual word aligner]('https://github.com/ma-sultan/monolingual-word-aligner')
+**./scene_sentence_alignment.py** 
 
 **./SAMSA_score.py**: The SAMSA metric
 
