@@ -47,7 +47,7 @@ for t in index:
     xml_string1 = f1.read()
     f1.close()
     xml_object1 = fromstring(xml_string1)
-    P1 = convert.from_site(xml_object1)
+    P1 = convert.from_standard(xml_object1) #from_site for the semi-automatic version of SAMSA
     L1 = get_scenes(P1)
     L2 = get_sentences('%s.txt' %t)
     s = open('s%s.txt' %t, 'w')
